@@ -1,14 +1,15 @@
 {
   "name": "gitignore-snippets",
   "main": "./lib/gitignore-snippets",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Atom snippets for .gitignore templates from GitHub (https://github.com/github/gitignore).",
-  "activationEvents": ["gitignore-snippets:toggle"],
+  "activationEvents": [
+    "gitignore-snippets:toggle"
+  ],
   "repository": "https://github.com/jefkoslowski/gitignore-snippets",
   "license": "MIT",
   "engines": {
     "atom": ">0.50.0"
   },
-  "dependencies": {
-  }
+  "dependencies": {}
 }
