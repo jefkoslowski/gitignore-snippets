@@ -12,7 +12,7 @@
   },
   "license": "MIT",
   "engines": {
-    "atom": ">0.50.0"
+    "atom": ">=0.174.0 <2.0.0"
   },
   "dependencies": {},
   "readme": "# Gitignore Snippets\n\nQuickly create .gitignore files with templates from [GitHub](https://github.com/github/gitignore).\n\n![demo](https://dl.dropboxusercontent.com/u/268400/gitignore-snippets.gif)\n\n## Usage\n\nPrefix a template name (lowercase) with \"gig-\" and press tab. You can find all available templates on https://github.com/github/gitignore.\n\n```\ngig-[template-name]\n```\n\n## Examples\n\n### Node\n```\ngig-node\n```\n\n### Rails\n```\ngig-rails\n```\n",
