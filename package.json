@@ -16,17 +16,34 @@
   "engines": {
     "atom": ">=0.174.0 <2.0.0"
   },
-  "dependencies": {},
+  "dependencies": {
+    "atom-space-pen-views": "^2.0.3"
+  },
   "readme": "# Gitignore Snippets\n\nQuickly create .gitignore files with templates from [GitHub](https://github.com/github/gitignore).\n\n![demo](https://dl.dropboxusercontent.com/u/268400/gitignore-snippets.gif)\n\n## Usage\n\nPrefix a template name (lowercase) with \"gig-\" and press tab. You can find all available templates on https://github.com/github/gitignore.\n\n```\ngig-[template-name]\n```\n\n## Examples\n\n### Node\n```\ngig-node\n```\n\n### Rails\n```\ngig-rails\n```\n",
   "readmeFilename": "README.md",
   "bugs": {
     "url": "https://github.com/jefkoslowski/gitignore-snippets/issues"
   },
   "homepage": "https://github.com/jefkoslowski/gitignore-snippets",
-  "_id": "gitignore-snippets@0.1.0",
+  "_id": "gitignore-snippets@0.2.2",
   "dist": {
     "shasum": "5a2be247e323d4f6e66d91c022813bba3196437b"
   },
-  "_resolved": "/var/folders/hk/czqk3cqx1r5ch8qp2907vqg00000gp/T/d-114316-7085-1cn28da/package.tgz",
-  "_from": "/var/folders/hk/czqk3cqx1r5ch8qp2907vqg00000gp/T/d-114316-7085-1cn28da/package.tgz"
+  "_resolved": "file:../d-115414-45418-w9bhxe/package.tgz",
+  "_from": "../d-115414-45418-w9bhxe/package.tgz",
+  "_shasum": "f07f775bc862ec34e65a79b63362370ba7baaf8a",
+  "_atomModuleCache": {
+    "version": 1,
+    "dependencies": [],
+    "extensions": {
+      ".coffee": [
+        "lib/gitignore-snippets-view.coffee",
+        "lib/gitignore-snippets.coffee"
+      ],
+      ".json": [
+        "package.json"
+      ]
+    },
+    "folders": []
+  }
 }
