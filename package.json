@@ -1,10 +1,12 @@
 {
   "name": "gitignore-snippets",
   "main": "./lib/gitignore-snippets",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "Quickly create .gitignore files with templates from GitHub.",
   "activationCommands": {
-    "atom-workspace": ["gitignore-snippets:toggle"]
+    "atom-workspace": [
+      "gitignore-snippets:toggle"
+    ]
   },
   "repository": {
     "type": "git",
