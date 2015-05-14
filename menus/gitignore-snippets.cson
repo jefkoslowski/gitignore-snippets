@@ -1,8 +1,8 @@
 # See https://atom.io/docs/latest/creating-a-package#menus for more details
 'context-menu':
-  '.overlayer':
-      'Enable gitignore-snippets': 'gitignore-snippets:toggle'
-
+  'atom-workspace': [
+      { 'label': 'Enable gitignore-snippets', 'command': 'gitignore-snippets:toggle' }
+  ]
 'menu': [
   {
     'label': 'Packages'
