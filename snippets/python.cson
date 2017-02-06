@@ -55,4 +55,20 @@
 
           # Sphinx documentation
           docs/_build/
+
+          # Pelican
+          cache
+          pelican-plugins
+          pelican-themes
+          output
+          *.pyc
+          *.pid
+
+          # Virtual Environment
+          venv
+
+          # Flask
+          instance/
+          *.sqlite
+          *.db
           """
